@@ -12,7 +12,7 @@ public class GamblingGame {
             Random random = new Random();
             int dice = random.nextInt(6) + 1;
             if (dice == 1 || dice == 2) {
-                System.out.println("Game over, your score is: " + Puan);
+                System.out.println("Game over,  your score is: " + Puan);
                 break;
             }
              if (dice == 4) {
