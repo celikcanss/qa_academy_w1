@@ -48,7 +48,7 @@ public class SalaryRaise {
 
 
 
-    public static void raiseSalary(){
+    public static void SalaryRaise(){
         System.out.println("Please enter year.");
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
@@ -81,7 +81,7 @@ public class SalaryRaise {
 
 
     public static void main(String[]args){
-        raiseSalary();
+        SalaryRaise();
 
     }
 
