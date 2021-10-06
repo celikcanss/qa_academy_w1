@@ -3,7 +3,7 @@ package week1homework;
 import java.util.Scanner;
 
 public class SalaryCalculator {
-   public static double salaryCalculator (){
+   public static void main (String[]args){
 
         System.out.println("Please enter base salary.");
         Scanner scanner = new Scanner(System.in);
@@ -14,11 +14,10 @@ public class SalaryCalculator {
         System.out.println("Please enter weekend working hours.");
         Scanner scanner3 = new Scanner(System.in);
         int weekendHours = scanner.nextInt();
-
         scanner.close();
 
         double unitSalary = baseSalary / 40;
-       double totalSalary ;
+        double totalSalary ;
 
         if (baseSalary<1000) {
             totalSalary = 0;
@@ -42,50 +41,12 @@ public class SalaryCalculator {
    }
 
 
-       return totalSalary;
    }
-
-
-
-
-   public static void raiseSalary(){
-       System.out.println("Please enter year.");
-       Scanner scanner = new Scanner(System.in);
-       int year = scanner.nextInt();
-       double raisedSalary = 0;
-       double totalSalary=salaryCalculator();
-       if(year==0){
-           raisedSalary=totalSalary;
-       }
-       else if (year==1){
-           raisedSalary=totalSalary*1.05;
-       }
-       else if (year==2){
-           raisedSalary=totalSalary*1.1;
-       }
-       else if (year==3){
-           raisedSalary=totalSalary*1.15;
-       }
-       else if (year==4){
-           raisedSalary=totalSalary*1.20;
-       }
-       else if (year>=5){
-           raisedSalary=totalSalary*1.25;
-       }
-
-       System.out.println("Final salary is: " + raisedSalary);
-   }
-
-
-
-
-
-   public static void main(String[]args){
-       raiseSalary();
-
-    }
-
-
-
-
 }
+
+
+
+
+
+
+
