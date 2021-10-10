@@ -15,7 +15,7 @@ public class Main {
 
         User loginUser = null;
 
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000; i++) {
             System.out.println("Please enter phone number");
             Scanner scanner = new Scanner(System.in);
             int givenTel = scanner.nextInt();

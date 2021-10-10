@@ -206,7 +206,7 @@ public class User {
             for (int i=0;i<=1;i++) {
                 System.out.println(subCategories2.get(i));
             }
-            System.out.println("Enter a number to go to relevant subcategory");
+            System.out.println("Enter a number to go to relevant subcategory ");
             Scanner scanner3 = new Scanner(System.in);
             int chosenSubCategory = scanner3.nextInt();
 
@@ -221,7 +221,7 @@ public class User {
             for (int i=0;i<=1;i++) {
                 System.out.println(subCategories3.get(i));
             }
-            System.out.println("Enter a number to go to relevant subcategory");
+            System.out.println("Enter a number to go to relevant subcategory ");
             Scanner scanner4 = new Scanner(System.in);
             int chosenSubCategory = scanner4.nextInt();
             if (chosenSubCategory == 1) {
